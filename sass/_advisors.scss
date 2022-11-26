@@ -1,0 +1,60 @@
+section#advisors {
+    background-color: var(--primary-color);
+
+    header {       
+        padding: 2em 0;
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .container h1 {
+            font-size: 3rem;
+            color: white;
+            text-transform: uppercase;
+        }
+
+        .container .image_container {
+            width: 20vw;
+            aspect-ratio: 1/1;
+            outline: 2px solid red;
+        }
+    }
+
+    .container {
+
+
+        ul.advisors_images {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1em;
+            padding: 1em 0 5rem 0;
+
+            li {
+                background-color: white;
+                display: flex;
+                flex-direction: column;
+                gap: 0.5em;
+                padding-bottom: 1em;
+            }
+
+            li .advisor_image {
+                width: 100%;
+                aspect-ratio: 1/1;
+                outline: 2px solid red;
+            }
+
+            li .advisor_line {
+                width: 80%;
+            }
+
+            li .advisor_name, li .advisor_designation {
+                font-size: 1.2rem;
+                text-align: center;
+                // padding: 0.5em;
+            }
+        }
+    }
+}

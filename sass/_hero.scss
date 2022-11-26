@@ -1,0 +1,15 @@
+section#hero {
+    height: 90vh;
+    background-color: var(--primary-color);
+
+    .container {
+        display: flex;align-items: center;justify-content: center;
+    }
+
+    h1 {
+        text-transform: uppercase;
+        font-size: 4rem;
+        text-align: center;
+        color: white;
+    }
+}

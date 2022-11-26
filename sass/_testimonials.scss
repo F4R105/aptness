@@ -1,0 +1,36 @@
+section#testimonials {
+    background-color: rgb(41, 41, 41);
+
+    .container {
+        // padding-bottom: 5em;
+
+        ul#testimonial_slider {
+            padding: 1em;
+            display: flex;
+            gap: 1em;
+
+            li {
+                color: white;
+                padding: 2em;
+                text-align: center;
+                background-color: var(--primary-color);
+            }
+
+            li .testimonial {
+                padding-bottom: 2em;
+            }
+
+            li .client, li .client_designation {
+                font-size: 1.5rem;
+                // padding: 0.5em;
+            }
+        }
+
+        #note {
+            color: white;
+            text-align: center;
+            font-size: 2rem;
+            padding: 1em;
+        }
+    }
+}

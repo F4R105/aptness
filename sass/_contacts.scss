@@ -1,0 +1,24 @@
+section#contacts {
+    background-color: var(--primary-color);
+    padding-bottom: 5em;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        font-size: 2.5rem;
+        color: white;
+
+        button {
+            font-size: 1.5rem;
+            color: black;
+            background-color: white;
+            border-radius: 200px;
+            width: 200px;
+            font-weight: bold;
+
+            &:hover {
+                box-shadow: 0 0 5px 5px rgba(black,0.2);
+            }
+        }
+    }
+}
